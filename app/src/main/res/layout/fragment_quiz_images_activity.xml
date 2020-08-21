@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/ItemTextViewStyle"
+            android:id="@+id/tv_ques_1"
+            android:text="Which of the following countries is not a member of the G-8 group?"
+            android:layout_marginTop="30dp"
+            />
+
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_mumbai"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/spain"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_punjab"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/france"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_hyderabad"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/italy"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_kolkata"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/germany"
+            />
+     </FrameLayout>
+
+
+   <androidx.appcompat.widget.AppCompatTextView
+            style="@style/ItemTextViewStyle"
+            android:id="@+id/tv_ques_2"
+            android:text="Which of the following countries is not a member of SAARC?"
+            android:layout_marginTop="30dp"
+            />
+
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_multan_sultan"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/afghanistan"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_karachi"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/myanmar"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_lahore"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/nepal"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_peshawar"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/bangladesh"
+            />
+     </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_next"
+
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_login"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
